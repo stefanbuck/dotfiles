@@ -1,3 +1,15 @@
+# Misc
+alias _alias='vi ~/.aliases'
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security & exit'
+alias gs='git status'
+
+# Espresso shortcuts for The M Project
+alias espresso='ulimit -n1024;launchctl limit maxfiles 500 500; espresso.js'         
+alias eb='espresso build'
+alias es='espresso server'
+alias ei='espresso init -p '
+alias eg='espresso generate'
+
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
 alias cd..="cd .."
